@@ -6,6 +6,7 @@ namespace NetStandard20Library
     {
         public void PublicMethod()
         {
+            Microsoft.Extensions.Primitives.InplaceStringBuilder builder = new Microsoft.Extensions.Primitives.InplaceStringBuilder();
         }
     }
 }
