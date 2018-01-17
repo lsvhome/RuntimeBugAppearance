@@ -81,5 +81,11 @@
   <ItemGroup>
     <InterfaceDefinition Include="Main.storyboard" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NetStandard20Library\NetStandard20Library.csproj">
+      <Project>{E5DF378A-96DE-4E4F-8DFA-319C788576CE}</Project>
+      <Name>NetStandard20Library</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Mac\Xamarin.Mac.CSharp.targets" />
 </Project>
